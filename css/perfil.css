@@ -1,0 +1,158 @@
+.imgperfi{
+    width: 30rem;
+    height: 30rem;
+    margin: 2rem;
+}
+.imgj{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.informacion h1{
+    font-size: 3rem;
+}
+.informacion p{
+    padding: 20px;
+    font-size: 1.4rem;
+    color: rgb(19, 19, 19);
+}
+.info{
+    margin: 2rem 0rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+}
+.redes{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0rem;
+}
+.about h1{
+
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.foto1{
+    width: 30rem;
+    height: 30rem;
+    margin: 2rem;
+}
+.about p{
+    padding: 2rem 0rem;
+}
+.info2 h1{
+    font-size: 3rem;
+}
+.info2 p{
+    padding: 20px;
+    color: black;
+    font-size: 1.4rem;
+}
+.p{
+    margin-left: 80px;
+
+}
+
+.lista{
+    font-size: 10px;
+    gap: 5px;
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 0;
+    column-count: 3;
+    color: rgb(15, 14, 14);
+}
+.imagenesp{
+    padding: 20px;
+    width: 100%;
+  gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(7,1fr);
+}
+.js{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.type{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.neon{
+width: 100%;
+grid-column: 3/-1;
+grid-row: 1/2;
+}
+.ne{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.no{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.ex{
+    width: 100%;
+    grid-column: 3/-1;
+    grid-row:2/3 ;
+}
+.net{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.sk{grid-row: 3/4;
+    width: 100%;
+    grid-column: 2/3;
+
+}
+.sq{
+    width: 100%;
+    grid-column: 3/-1;
+    grid-row: 3/4;
+}
+.mo{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.sa{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 4/5;
+
+}
+.ta{
+    width: 100%;
+    grid-column: 3/-1;
+    grid-row: 4/5;
+}
+.fi{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.cy{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.st{
+    width: 100%;
+    grid-column: 3/-1;
+    grid-row: 5/6;
+}
+.g{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 6/7;
+}

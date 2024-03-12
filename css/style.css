@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: monospace;
+}
+.pantalla{
+    max-width: 37.5rem;
+    margin: auto;
+    padding: 1rem;
+}
+@media only screen and (max-width: 720px){
+    .pantalla{
+        max-width: 72rem;
+        padding: 1rem 2rem;
+        
+    }
+    
+}
+@media screen and (min-width: 1239px){
+    .pantalla{
+        max-width: 123rem;
+        padding: 1rem 2rem;
+        
+    }
+    
+}
+@media screen and (min-width:1239px) {
+    .per{
+        height: 20rem;
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        grid-template-rows: (1fr 1fr 1fr);
+    }
+    .informacion{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 2rem 0px;
+    } 
+    .info{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .redes{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .img9{
+        grid-column: 2/3;
+        grid-row: 1/4;
+        padding: 2rem 0px;
+        margin: auto;
+    }
+
+    
+}
+@media screen and (min-width:1239px){
+    .jc{
+        height: 50rem;
+        display: grid;
+        grid-template-columns: 50% 1fr;
+        grid-template-rows:  1fr 1fr 1fr 1fr 1fr; 
+        margin-top: 10rem;
+    }
+    .p{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-left:30px ;
+    }
+    .lista{
+        grid-column: 2/3;
+        grid-row: 3/4;
+            
+    }
+    
+    } 
+    @media screen and (min-width:1239px){
+       .imagenesp{
+        margin-left: 40px;
+       } 
+        
+    }
